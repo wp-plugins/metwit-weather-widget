@@ -111,7 +111,7 @@ class DX_Sample_Widget extends WP_Widget {
                                 
                                 text = temp+'$t';
                                 
-				                jQuery('div.mtw-widget-icon-box').html('<img class=\"mtw-widget-icon-box\" src=\"'+data.objects[0].icon+'?format=250x250&ext=svg\">');				              
+				                jQuery('div.mtw-widget-icon-box').html('<img class=\"mtw-widget-icon-box\" src=\"'+data.objects[0].icon+'?format=250x250&type=svg\">');				              
 				                
                                 
                                 jQuery('.mtw-widget-status').html(status);
