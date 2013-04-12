@@ -56,5 +56,5 @@ Yes, it is, up to 200 API calls from different IPs. For more calls, we're develo
 
 == Screenshots ==
 
-1. **Portrait version**
-2. **Landscape version**
+1. **Landscape version**
+2. **Portrait version**
