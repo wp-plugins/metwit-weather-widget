@@ -151,7 +151,7 @@ class DX_Plugin_Base {
 	 */
 	function dx_admin_pages_callback() {
 		add_menu_page('Metwit Weather Widget Admin', 'Metwit Weather Widget Admin', 'edit_themes', 'dx-plugin-base', array( $this, 'dx_plugin_base'));		
-		add_submenu_page( 'dx-plugin-base', 'Base Subpage', 'Base Subpage', 'edit_themes', 'dx-base-subpage', array( $this, 'dx_plugin_subpage'));
+		//add_submenu_page( 'dx-plugin-base', 'Base Subpage', 'Base Subpage', 'edit_themes', 'dx-base-subpage', array( $this, 'dx_plugin_subpage'));
 	}
 	
 	/**
