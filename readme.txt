@@ -52,3 +52,9 @@ Yes, it is.
 
 = Is it free? =
 Yes, it is, up to 200 API calls from different IPs. For more calls, we're developing the next version which will require an API key obtained by selecting a plan on our website.
+
+
+== Screenshots ==
+
+1. **Portrait version**
+2. **Landscape version**
