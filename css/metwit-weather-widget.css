@@ -1,0 +1,146 @@
+.mtw-widget {
+    width:100%;
+	background-color:#ffffff;
+    box-shadow: 0px 3px 3px #ccc;
+    border-radius: 4px;
+    height:170px;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    text-decoration: none;
+    border-top: 1px solid #f0f0f0;
+}
+
+.mtw-widget-title{
+    width:90%;
+    margin: 5%;
+    font-weight: 200;
+    font-size: 24px;
+    color: #999;
+    padding-left: 4%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;;
+}
+
+.mtw-widget-status{
+    padding: 4%;
+    font-size: 28px;
+    font-weight: 200;
+    margin: 0%;
+    line-height: 100%;
+}
+
+.mtw-widget-icon-box {
+    float: left;
+    height: 100%;
+    width: 46%;
+}
+
+#mtw-widget-icon {
+    padding-left: 0;
+    width: 100%;
+    -webkit-transition: all 0.2s ease;
+    -webkit-animation-name: smatto;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    
+    
+    -moz-transition: all 0.2s ease;
+    -moz-animation-name: smatto;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    
+    
+    box-shadow: none !important;
+}
+
+@-webkit-keyframes smatto {
+    from {
+        -webkit-transform: rotate(-10deg);
+    }
+    to {
+        -webkit-transform:rotate(10deg);
+    }
+}
+
+@-moz-keyframes smatto {
+    from {
+        -moz-transform: rotate(-10deg);
+    }
+    to {
+        -moz-transform:rotate(10deg);
+    }
+}
+
+
+
+.mtw-widget-text{
+    padding: 4% 0% 4% 4%;
+    width: 50%;
+    float: left;
+    height:86%;
+    position: relative;
+}
+
+.mtw-widget-data {
+    color: #444444;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 110%;
+    margin: 0;
+    padding: 4%;
+}
+
+.mtw-widget-location {
+    padding: 0% 4% 4% 4%;
+    margin: 0%;
+    font-weight: 200;
+    font-size: 14px;
+	color: #999999;
+	line-height: 110%;
+}
+.mtw-widget-footer {
+ color: #999999;
+    font-size: 10px;
+    font-weight: 200;
+    padding-top: 2.1%;
+    text-align: right;
+    width: 100%;
+}
+
+.mtw-widget-footer > p {
+    color: #ccc;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+@media only screen 
+and (max-width : 1050px) {
+	.mtw-widget {
+	    height: 220px;
+	}
+	
+	.mtw-widget-data { 
+		font-size: 52px;
+	}
+}
+
+@media only screen 
+and (min-width : 800px) and (max-width : 1050px) {
+.mtw-widget-status {
+    font-size: 20px;
+	}
+	
+		.mtw-widget {
+	    height: 150px;
+	}
+	.mtw-widget-data { 
+		font-size: 24px;
+	}
+	
+}
+
+
+
