@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Metwit Weather Widget
  * Plugin URI: http://metwit.com/developers/
- * Description: Metwit Weather Widget displays real time local weather conditions on your personal blog. It can be positioned on the sidebar or elsewhere. Based on Metwit <a href="http://metwit.com/developers/" title="weather API">weather API</a>.
+ * Description: Metwit Weather Widget displays real time local weather conditions on your personal blog. It can be positioned on the sidebar or elsewhere. Based on Metwit <a href="http://metwit.com/weather-api/" title="weather API">weather API</a>.
  * Author: Duccio Catalioto
  * Author URI: http://twitter.com/duccioc/
  * Version: 1.0

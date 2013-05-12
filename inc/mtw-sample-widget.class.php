@@ -67,7 +67,7 @@ class DX_Sample_Widget extends WP_Widget {
 	            <div style="clear:both;"></div>
 	        </div>
 	        <div class="mtw-widget-footer">
-				Powered by Metwit <a href="http://metwit.com/developers/" title="weather API">weather API</a>
+				Powered by Metwit <a href="http://metwit.com/weather-api/" title="weather API">weather API</a>
 	        </div>';
         
     			$out .="
