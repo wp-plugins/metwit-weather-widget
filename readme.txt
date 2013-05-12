@@ -12,7 +12,7 @@ Metwit Weather Widget displays real time local weather conditions on your person
 
 == Description ==
 
-Metwit Weather Widget is a weather plugin that displays local weather on your blog at a location of your choice. Unlike other weather widgets, Metwit's information relies on an array of sources, from both professional service providers and crowd sourced weather reports, and determines the most accurate weather information thanks to an exclusive algorithm. Powered by Metwit [weather API](http://metwit.com/developers/).
+Metwit Weather Widget is a weather plugin that displays local weather on your blog at a location of your choice. Unlike other weather widgets, Metwit's information relies on an array of sources, from both professional service providers and crowd sourced weather reports, and determines the most accurate weather information thanks to an exclusive algorithm. Powered by Metwit [weather API](http://metwit.com/weather-api/).
 
 = Features =
 
